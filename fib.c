@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 int main(void){
-    int fart = 0;
-    int butt = 1;
+    int diff = 0;
+    int n = 1;
    
     for (int i = 0; i < 10; i++){
-        int jawline = fart + butt;
-        printf ("%d \n", jawline);
-        fart = butt;
-        butt = jawline;
+        int sum =  diff + n;
+        printf ("%d \n", sum);
+        diff = n;
+        n = sum;
     }
 
 }
