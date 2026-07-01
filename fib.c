@@ -11,5 +11,4 @@ int main(void){
         diff = n;
         n = sum;
     }
-
 }
